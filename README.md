@@ -16,5 +16,5 @@
 # FAQ
 Q) How to debug the error "Error: listen EADDRINUSE: address already in use :::8001"  
 **(soln):**  
-```lsof :8001 -t```  
+```lsof -i :8001 -t```  
 ```kill -9 [the process id]```
