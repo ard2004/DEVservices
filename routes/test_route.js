@@ -3,7 +3,7 @@ const app = express()
 const router = express.Router()
 // const {upload_files} = require(`../controller/uploadController.js`)
 // router.route('/upload').post(upload_files)
-router.get('/test',(req,res)=>{
+router.get('/',(req,res)=>{
   res.sendStatus(200)
 })
 
