@@ -7,7 +7,7 @@
 ### **working plan for version 1** -:
  - Install NodeJS in your machine
  - download the project to your system:  
- ```git clone git@github.com:captain-Arvoy/DEVservices``` 
+ ```git clone git@github.com:captain-Arvoy/DEVservices.git``` 
  - go to the DEVservices directory and run  
  ```npm install``` command 
  - run ```npm run dev```
